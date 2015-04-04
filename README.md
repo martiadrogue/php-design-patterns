@@ -1,6 +1,7 @@
 # PHP Design Patterns
 
 These are example design patterns that can be used to solve common problems.
+Edited by Martí Adrogué.
 
 ## The patterns
 
