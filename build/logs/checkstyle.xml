@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="2.3.0">
+<file name="/var/www/test/public/loader.php">
+ <error line="3" column="23" severity="error" message="Expected 1 space after FUNCTION keyword; 0 found" source="Squiz.Functions.MultiLineFunctionDeclaration.SpaceAfterFunction"/>
+ <error line="3" column="42" severity="error" message="Expected 1 space after closing parenthesis; found 0" source="Squiz.Functions.MultiLineFunctionDeclaration.SpaceAfterBracket"/>
+ <error line="8" column="3" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/Adapter/ConsoleLog.php">
+ <error line="15" column="13" severity="warning" message="Property name &quot;$_error&quot; should not be prefixed with an underscore to indicate visibility" source="PSR2.Classes.PropertyDeclaration.Underscore"/>
+</file>
+<file name="/var/www/test/public/Patterns/Adapter/DetailedErrorAdapter.php">
+ <error line="15" column="13" severity="warning" message="Property name &quot;$_errorCode&quot; should not be prefixed with an underscore to indicate visibility" source="PSR2.Classes.PropertyDeclaration.Underscore"/>
+ <error line="20" column="13" severity="warning" message="Property name &quot;$_errorMessage&quot; should not be prefixed with an underscore to indicate visibility" source="PSR2.Classes.PropertyDeclaration.Underscore"/>
+</file>
+<file name="/var/www/test/public/Patterns/Adapter/EchoLog.php">
+ <error line="17" column="13" severity="warning" message="Property name &quot;$_error&quot; should not be prefixed with an underscore to indicate visibility" source="PSR2.Classes.PropertyDeclaration.Underscore"/>
+</file>
+<file name="/var/www/test/public/Patterns/Adapter/ErrorObject.php">
+ <error line="15" column="13" severity="warning" message="Property name &quot;$_errorMessage&quot; should not be prefixed with an underscore to indicate visibility" source="PSR2.Classes.PropertyDeclaration.Underscore"/>
+</file>
+<file name="/var/www/test/public/Patterns/Builder/Product.php">
+ <error line="45" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/Builder/ProductBuilder.php">
+ <error line="3" column="1" severity="error" message="There must be one blank line after the namespace declaration" source="PSR2.Namespaces.NamespaceDeclaration.BlankLineAfter"/>
+</file>
+<file name="/var/www/test/public/Patterns/ChainOfCommand/CommandChain.php">
+ <error line="1" column="1" severity="warning" message="No PHP code was found in this file and short open tags are not allowed by this install of PHP. This file may be using short open tags but PHP does not allow them." source="Internal.NoCodeFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/ChainOfCommand/CommandInterface.php">
+ <error line="1" column="1" severity="warning" message="No PHP code was found in this file and short open tags are not allowed by this install of PHP. This file may be using short open tags but PHP does not allow them." source="Internal.NoCodeFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/ChainOfCommand/Commands/MailCommand.php">
+ <error line="1" column="1" severity="warning" message="No PHP code was found in this file and short open tags are not allowed by this install of PHP. This file may be using short open tags but PHP does not allow them." source="Internal.NoCodeFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/ChainOfCommand/Commands/SmsCommand.php">
+ <error line="1" column="1" severity="warning" message="No PHP code was found in this file and short open tags are not allowed by this install of PHP. This file may be using short open tags but PHP does not allow them." source="Internal.NoCodeFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/ChainOfCommand/example.php">
+ <error line="1" column="1" severity="warning" message="No PHP code was found in this file and short open tags are not allowed by this install of PHP. This file may be using short open tags but PHP does not allow them." source="Internal.NoCodeFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/Decorator/Decorators/ReverseDecorator.php">
+ <error line="5" column="1" severity="error" message="There must be one USE keyword per declaration" source="PSR2.Namespaces.UseDeclaration.MultipleDeclarations"/>
+ <error line="19" column="13" severity="warning" message="Property name &quot;$_greeting&quot; should not be prefixed with an underscore to indicate visibility" source="PSR2.Classes.PropertyDeclaration.Underscore"/>
+ <error line="48" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/Decorator/Decorators/UpperCaseDecorator.php">
+ <error line="5" column="1" severity="error" message="There must be one USE keyword per declaration" source="PSR2.Namespaces.UseDeclaration.MultipleDeclarations"/>
+ <error line="19" column="13" severity="warning" message="Property name &quot;$_greeting&quot; should not be prefixed with an underscore to indicate visibility" source="PSR2.Classes.PropertyDeclaration.Underscore"/>
+ <error line="48" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/Decorator/Greeting.php">
+ <error line="19" column="13" severity="warning" message="Property name &quot;$_name&quot; should not be prefixed with an underscore to indicate visibility" source="PSR2.Classes.PropertyDeclaration.Underscore"/>
+ <error line="28" column="38" severity="error" message="Incorrect spacing between argument &quot;$name&quot; and equals sign; expected 1 but found 0" source="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpaceBeforeEquals"/>
+ <error line="28" column="38" severity="error" message="Incorrect spacing between default value and equals sign for argument &quot;$name&quot;; expected 1 but found 0" source="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpaceAfterDefault"/>
+ <error line="48" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/Decorator/GreetingInterface.php">
+ <error line="28" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/Delegate/Formats/M3UPlaylist.php">
+ <error line="26" column="1" severity="error" message="The closing brace for the class must go on the next line after the body" source="PSR2.Classes.ClassDeclaration.CloseBraceAfterBody"/>
+</file>
+<file name="/var/www/test/public/Patterns/Delegate/Formats/Playlist.php">
+ <error line="3" column="1" severity="error" message="There must be one blank line after the namespace declaration" source="PSR2.Namespaces.NamespaceDeclaration.BlankLineAfter"/>
+</file>
+<file name="/var/www/test/public/Patterns/Factory/Cars/CarInterface.php">
+ <error line="9" column="1" severity="error" message="Each interface must be in a namespace of at least one level (a top-level vendor name)" source="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
+ <error line="31" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/Factory/Cars/Ferrari.php">
+ <error line="1" column="1" severity="warning" message="A file should declare new symbols (classes, functions, constants, etc.) and cause no other side effects, or it should execute logic with side effects, but should not do both. The first symbol is defined on line 11 and the first side effect is on line 3." source="PSR1.Files.SideEffects.FoundWithSymbols"/>
+ <error line="11" column="1" severity="error" message="Each class must be in a namespace of at least one level (a top-level vendor name)" source="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
+ <error line="15" column="7" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="25" column="7" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="35" column="7" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="42" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/Factory/Cars/Ford.php">
+ <error line="1" column="1" severity="warning" message="A file should declare new symbols (classes, functions, constants, etc.) and cause no other side effects, or it should execute logic with side effects, but should not do both. The first symbol is defined on line 11 and the first side effect is on line 3." source="PSR1.Files.SideEffects.FoundWithSymbols"/>
+ <error line="11" column="1" severity="error" message="Each class must be in a namespace of at least one level (a top-level vendor name)" source="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
+ <error line="15" column="7" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="25" column="7" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="35" column="7" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="42" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/Factory/Cars.php">
+ <error line="13" column="1" severity="error" message="Each class must be in a namespace of at least one level (a top-level vendor name)" source="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
+ <error line="23" column="40" severity="error" message="Incorrect spacing between argument &quot;$make&quot; and equals sign; expected 1 but found 0" source="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpaceBeforeEquals"/>
+ <error line="23" column="40" severity="error" message="Incorrect spacing between default value and equals sign for argument &quot;$make&quot;; expected 1 but found 0" source="Squiz.Functions.FunctionDeclarationArgumentSpacing.SpaceAfterDefault"/>
+ <error line="35" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/Factory/example.php">
+ <error line="14" column="36" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/Observer/Magazine.php">
+ <error line="13" column="1" severity="error" message="Each class must be in a namespace of at least one level (a top-level vendor name)" source="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
+ <error line="19" column="13" severity="warning" message="Property name &quot;$_observers&quot; should not be prefixed with an underscore to indicate visibility" source="PSR2.Classes.PropertyDeclaration.Underscore"/>
+ <error line="23" column="7" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="33" column="7" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="42" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/Observer/Observers/Charlie.php">
+ <error line="1" column="1" severity="warning" message="A file should declare new symbols (classes, functions, constants, etc.) and cause no other side effects, or it should execute logic with side effects, but should not do both. The first symbol is defined on line 13 and the first side effect is on line 3." source="PSR1.Files.SideEffects.FoundWithSymbols"/>
+ <error line="13" column="1" severity="error" message="Each class must be in a namespace of at least one level (a top-level vendor name)" source="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
+ <error line="19" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/Observer/Observers/ObserverInterface.php">
+ <error line="11" column="1" severity="error" message="Each interface must be in a namespace of at least one level (a top-level vendor name)" source="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
+ <error line="15" column="7" severity="error" message="Whitespace found at end of line" source="Squiz.WhiteSpace.SuperfluousWhitespace.EndLine"/>
+ <error line="19" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/Observer/Observers/Sylvester.php">
+ <error line="1" column="1" severity="warning" message="A file should declare new symbols (classes, functions, constants, etc.) and cause no other side effects, or it should execute logic with side effects, but should not do both. The first symbol is defined on line 13 and the first side effect is on line 3." source="PSR1.Files.SideEffects.FoundWithSymbols"/>
+ <error line="13" column="1" severity="error" message="Each class must be in a namespace of at least one level (a top-level vendor name)" source="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
+ <error line="19" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/Registry/Registry.php">
+ <error line="8" column="1" severity="error" message="Each class must be in a namespace of at least one level (a top-level vendor name)" source="PSR1.Classes.ClassDeclaration.MissingNamespace"/>
+</file>
+<file name="/var/www/test/public/Patterns/Singleton/Singleton.php">
+ <error line="21" column="20" severity="warning" message="Property name &quot;$_instance&quot; should not be prefixed with an underscore to indicate visibility" source="PSR2.Classes.PropertyDeclaration.Underscore"/>
+ <error line="28" column="36" severity="error" message="Opening brace should be on a new line" source="Squiz.Functions.MultiLineFunctionDeclaration.BraceOnSameLine"/>
+ <error line="28" column="37" severity="error" message="Closing brace must be on a line by itself" source="Squiz.WhiteSpace.ScopeClosingBrace.ContentBefore"/>
+ <error line="43" column="1" severity="error" message="Expected 1 newline at end of file; 0 found" source="PSR2.Files.EndFileNewline.NoneFound"/>
+</file>
+<file name="/var/www/test/public/Patterns/Strategy/CD.php">
+ <error line="76" column="1" severity="error" message="The closing brace for the class must go on the next line after the body" source="PSR2.Classes.ClassDeclaration.CloseBraceAfterBody"/>
+</file>
+</checkstyle>
+
