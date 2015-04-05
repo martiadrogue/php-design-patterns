@@ -1,0 +1,11 @@
+{
+    "name": "martiadrogue/test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Martí Adrogué",
+            "email": "marti.adrogue@gmail.com"
+        }
+    ],
+    "require": {}
+}

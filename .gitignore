@@ -3,3 +3,5 @@
 !build/phpunit.xml
 !build/phpdox.xml
 build/*
+
+/vendor/
