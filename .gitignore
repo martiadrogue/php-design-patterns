@@ -1,7 +1,8 @@
 # build
+build/*
 !build/phpmd.xml
 !build/phpunit.xml
 !build/phpdox.xml
-build/*
+!build/tests/
 
 /vendor/
