@@ -1,7 +1,5 @@
-.buildpath
-.settings
-.project
-index.php
-.idea
-.DS_Store
-__MACOSX
+# build
+!build/phpmd.xml
+!build/phpunit.xml
+!build/phpdox.xml
+build/*
