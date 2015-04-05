@@ -160,6 +160,10 @@
   <exec executable="${toolsdir}phpunit" failonerror="true">
    <arg value="--configuration"/>
    <arg path="${basedir}/build/phpunit.xml"/>
+   <arg value="--coverage-clover"/>
+   <arg path="${basedir}/build/logs/clover.xml"/>
+   <arg value="--coverage-html"/>
+   <arg path="${basedir}/build/logs/."/>
   </exec>
  </target>
 
